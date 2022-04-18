@@ -1,0 +1,38 @@
+.form{
+	padding: 40px;
+	display: grid;
+	row-gap: 15px;
+	grid-template-rows: 40px 120px auto;
+}
+.form__input{
+	padding: 12px 15px;
+	background: none;
+	border: 2px solid #FFFFFF;
+border-radius: 5px;
+}
+.form__textarea{
+	padding: 24px 15px;
+	background: none;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+}
+
+.form__button {
+	justify-self: end;
+	font-weight: 400;
+	min-height: 30px;
+	padding:0 23px;
+font-size: 16px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+background: #885FFB;
+border-radius: 5px;
+transition: all 0.3s linear;
+}
+.form__button:active {
+	position: relative;
+	top: 2px;
+}
